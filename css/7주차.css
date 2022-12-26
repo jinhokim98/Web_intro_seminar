@@ -1,0 +1,87 @@
+/* static */
+#position_static_parent {
+    width: 500px;
+
+    background-color: yellow;
+}
+
+#position_static_child {
+    position: static;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    top: 100px;
+}
+
+/* fixed */
+#box1 {
+    width: 500px;
+    height: 200px;
+    background-color: gray;
+}
+
+#position_fixed_parent {
+    width: 500px;
+    height: 500px;
+    background-color: yellow;
+}
+
+#position_fixed_child {
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin-top: 100px;
+    top: 100px;
+
+    /*
+      margin 속성은 최초 파란색 박스가 생성된 지점을 기준으로 좌표가 설정됨
+      top 속성은 브라우저를 기준으로 좌표가 설정됨
+    */
+}
+
+#box2 {
+    width: 500px;
+    height: 200px;
+    background-color: pink;
+}
+
+/* relative */
+#box3 {
+    width: 500px;
+    height: 200px;
+    background-color: gray;
+}
+
+#position_relative_parent {
+    width: 500px;
+
+    background-color: yellow;
+}
+
+#position_relative_child {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    /*부모 자식 간에 발생하는 마진 병합 현상이 일어납니다.*/
+}
+
+/* absolute */
+#box4 {
+    width: 500px;
+    height: 200px;
+    background-color: gray;
+}
+
+#position_absolute_parent {
+    width: 500px;
+    background-color: yellow;
+}
+
+#position_absolute_child {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}

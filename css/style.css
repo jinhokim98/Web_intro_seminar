@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+@font-face {
+    font-family: 'GangwonEdu_OTFBoldA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: GangwonEdu_OTFBoldA, sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+#introduction_nav {
+    width: 400px;
+    height: 30px;
+    background-color: gray;
+}
+
+#input_id {
+    background-color: aqua;
+    border: 0;
+}
+
+.introduction {
+    font-family: 'Nanum Pen Script', cursive, sans-serif;
+    font-size: 40px;
+    font-style: oblique;
+    font-weight: 900;
+}
+
+.login {
+    width: 400px;
+    height: 100px;
+    background-color: gray;
+}
+
+h3 {
+    color: red;
+}
+
+.self {
+    color: blue;
+}
+
+#selfIntroduction {
+    color: skyblue;
+}

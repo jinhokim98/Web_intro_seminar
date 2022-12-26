@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'GangwonEdu_OTFBoldA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* default font */
+body {
+    font-family: GangwonEdu_OTFBoldA, sans-serif;
+    background-color: #9D949E;
+}
+
+header {
+    width: 100%;
+    height: 150px;
+}
+
+h1 {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#menu {
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+}
+
+#menu ul {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu li {
+    display: inline;
+    font-size: 30px;
+    margin: 0 40px 0 40px;
+}
+
+#menu li a {
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    text-decoration: none; /* a태그 밑줄 없애는 코드 */
+}
+
+.about_introduce_space {
+    width: 100%;
+    height: 600px;
+    margin: 0 200px 0 200px;
+}
+
+.images {
+    position: relative;
+    width: 1000px;
+    height: 600px;
+}
+
+.images .film_top {
+    position: relative;
+    float: left;
+    padding: 20px 20px 20px 20px;
+    width: 200px;
+    height: 200px;
+    border: solid 3px white;
+    border-radius: 5px;
+    margin: 0 20px 0 20px;
+}
+
+.images .film_top #hiccLogo {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+
+.images .film_top #my_mbti {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+
+.images .film_top #raccoon {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+
+.images .film_bottom {
+    position: relative;
+    float: left;
+    left: 140px;
+    padding: 20px 20px 20px 20px;
+    width: 200px;
+    height: 200px;
+    border: solid 3px white;
+    border-radius: 5px;
+    margin: 20px 20px 20px 20px;
+}
+
+
+.images .film_bottom #clouds {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+
+.images .film_bottom #leader {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
